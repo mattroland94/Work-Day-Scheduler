@@ -4,20 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -29,10 +18,56 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <div class="row" id="9am">
+        <label class="col-2 col-sm-1 time-block hour" id="9hour">9AM</label>
+        <textarea class="col-8 col-sm-10 desciption past" id="9"></textarea>
+        <button class="col-2 col-sm-1 saveBtn fas fa-save"></button>
+      </div>
+      <div class="row" id="10am">
+        <label class="col-2 col-sm-1 time-block hour" id="10hour">10AM</label>
+        <textarea class="col-8 col-sm-10 desciption past" id="10"></textarea>
+        <button class="col-2 col-sm-1 saveBtn fas fa-save"></button>
+      </div>
+      <div class="row" id="11am">
+        <label class="col-2 col-sm-1 time-block hour" id="11hour">11AM</label>
+        <textarea class="col-8 col-sm-10 desciption past" id="11"></textarea>
+        <button class="col-2 col-sm-1 saveBtn fas fa-save"></button>
+      </div>
+      <div class="row" id="12pm">
+        <label class="col-2 col-sm-1 time-block hour" id="12hour">12PM</label>
+        <textarea class="col-8 col-sm-10 desciption past" id="12"></textarea>
+        <button class="col-2 col-sm-1 saveBtn fas fa-save"></button>
+      </div>
+      <div class="row" id="1pm">
+        <label class="col-2 col-sm-1 time-block hour" id="1hour">1PM</label>
+        <textarea class="col-8 col-sm-10 desciption past" id="1"></textarea>
+        <button class="col-2 col-sm-1 saveBtn fas fa-save"></button>
+      </div>
+      <div class="row" id="2pm">
+        <label class="col-2 col-sm-1 time-block hour" id="2hour">2PM</label>
+        <textarea class="col-8 col-sm-10 desciption past" id="2"></textarea>
+        <button class="col-2 col-sm-1 saveBtn fas fa-save"></button>
+      </div>
+      <div class="row" id="3pm">
+        <label class="col-2 col-sm-1 time-block hour" id="3hour">3PM</label>
+        <textarea class="col-8 col-sm-10 desciption past" id="3"></textarea>
+        <button class="col-2 col-sm-1 saveBtn fas fa-save"></button>
+      </div>
+      <div class="row" id="4pm">
+        <label class="col-2 col-sm-1 time-block hour" id="4hour">4PM</label>
+        <textarea class="col-8 col-sm-10 desciption past" id="4"></textarea>
+        <button class="col-2 col-sm-1 saveBtn fas fa-save"></button>
+      </div>
+      <div class="row" id="5pm">
+        <label class="col-2 col-sm-1 time-block hour" id="5hour">5PM</label>
+        <textarea class="col-8 col-sm-10 desciption past" id="5"></textarea>
+        <button class="col-2 col-sm-1 saveBtn fas fa-save"></button>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
