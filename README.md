@@ -1,4 +1,4 @@
-# Work-Day-Scheduler (https://mattroland94.github.io/password-generator/)
+# Work-Day-Scheduler (https://mattroland94.github.io/Work-Day-Scheduler/)
 
 ## User Story
 
